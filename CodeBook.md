@@ -73,7 +73,7 @@ sub-step2: Sub_id (RE: subject) for both training and test has been extracted an
 
 Task-2: Extracts only the measurements on the mean and standard deviation for each measurement.
 
-Extracting features from features.txt file and followed by selecting required feature-labels and adding that to the previous joined X-data. The resultant data set in called Featured_dt with 66 selective columns
+Extracting features from features.txt file and followed by selecting required feature-labels and adding that to the previous joined X-data. The resultant data set in called Featured_dt with 66 selective columns (Names: specific Mean and STD measures)
 
 Task-3: Uses descriptive activity names to name the activities in the data set
 
@@ -81,7 +81,7 @@ Extracting activity labels from activity_labels.txt and merged with combined Y-d
 
 Task-4: Appropriately labels the data set with descriptive variable names.
 
-All three data sets are combined: Featured_dt, Y_dt, sub_id with appropriate column names. Reultant data set is called Cleaned_dt with 68 columns
+All three data sets are combined: Featured_dt, Y_dt (Activility label), sub_id (Subject or volunteers enrolled in this study) with appropriate column names. Reultant data set is called Cleaned_dt with 68 columns
 
 Task-5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
